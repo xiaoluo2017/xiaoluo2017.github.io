@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Xiao Luo</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Xiao Luo">
+    <meta name="description" content="Xiao Luo's software engineer portfolio website showing front-end projects on react and node.js">
+    <meta name="keywords" content="software, engineer, developer, development, xiao, luo, portfolio, web, george, washington">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans|Architects+Daughter|Ubuntu:500|Wendy+One|Alfa+Slab+One|Oswald" rel="stylesheet">
+    <link rel="shortcut icon" href="./public/favicon.ico">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">
+        <i class="fa fa-binoculars brand" aria-hidden="true"></i>
+        XIAO LUO
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profolio">PROFOLIO</a>
+          </li>
+          <li class="nav-item scrollable">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- greeting -->
+    <div class="greeting-background text-center fix-background">
+      <h1 class="greetings">HI, I&apos;M XIAO</h1>
+    </div>
+
+    <!-- about -->
+    <div class="container" id="about">
+      <hr class="hr" />
+      <div class="col-md-8 col-sm-10 col-xs-12 mx-auto">
+        <h2 class="text-center">XIAO LUO</h2>
+        <div class="col-md-8 col-sm-10 col-xs-12 mx-auto">
+          <p class="text-center remark">A GRADUATE STUDENT IN EE, GWU<br />
+          SEEkING FOR FULL-TIME POSITIONS IN SOFTWARE ENGINEER</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-8 mx-auto">
+          <img src="./public/images/xiaoluo.jpg" alt="XIAO LUO" class="img-fluid photo" />
+        </div>
+        <div>
+          <p class="text-left introduce">Hi, my name is Xiao Luo. I graduated from <strong>George Washington University</strong>  on 05/2017 with a MS degree in <strong>Electrical Engineering</strong>.</p>
+          <p class="text-left introduce">I has a great understanding in algorithms and problem solving in general. During graduate study, I built a movie recommend system with Hadoop on docker, and I also had industrial experience as a software engineer intern working on Java and MySQL projects. I am always willing to study, communicate and learn new knowledge. To make up for the lack of major, I learned new knowledge from online courses. I developed an impressive Picture Shard Website while learning Javascipt. I am a quick learning, capable, and talented software programmer. </p>
+          <p class="text-left introduce">I am seeking for <strong>FULL-TIME</strong> positions starting on Dec 2017 in <strong>SOFTWARE ENGINEER</strong>. Take some time to look at my work and if you would like to discuss further, let&apos;s <a href="#contact">get in touch</a>.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- resume -->
+    <div class="resume fix-background fix-background">
+      <h2 class="text-center" id="resume">VIEW MY RESUME!</h2>
+      <div class="col-md-6 col-sm-8 col-xs-12 mx-auto text-center">
+        <a class="btn btn-outline-dark" href="./public/RESUME.pdf" role="button" target="_blank">RESUME</a>
+      </div>
+    </div>
+
+    <!-- profolio -->
+    <div class="container" id="profolio">
+      <hr class="hr" />
+      <div class="col-md-10 col-xs-12 mx-auto">
+        <h2 class="text-center">PROFOLIO</h2>
+        <div class="col-md-6 col-sm-8 col-xs-12 mx-auto">
+          <p class="text-center remark">A ShOWCASE OF DESIGN &amp; DEVELOPMENT</p>
+        </div>
+        <div class="row">
+          <div class="col-md-12 container-img">
+            <a data-toggle="modal" data-target="#voteAppModal">
+              <img src="./public/images/vote.png" alt="vote app" class="img-fluid link profolio-img" />
+            </a>
+          </div>
+        </div>
+        <hr class="hr" />
+        <div class="row">
+          <div class="col-md-12">
+            <a data-toggle="modal" data-target="#ipictureModal">
+              <img src="./public/images/ipicture.PNG" alt="ipicture" class="img-fluid link profolio-img" />
+            </a>
+          </div>
+        </div>
+        <hr class="hr" />
+        <div class="col-md-6 col-sm-8 col-xs-12 mx-auto">
+          <p class="text-center remark">OTHER PROJECTS</p>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <a data-toggle="modal" data-target="#stockMarketModal">
+              <img src="./public/images/stock.jpg" alt="stock market" class="img-fluid img-thumbnail link" />
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12 topics">
+            <div class="topic">React</div>
+            <div class="topic">Node</div>
+            <div class="topic">Express.js</div>
+            <div class="topic">Mongodb</div>
+            <div class="topic">Recharts</div>
+            <div class="topic">React-bootstrap</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <a data-toggle="modal" data-target="#recipeBoxModal">
+              <img src="./public/images/recipe.jpg" alt="recipe box" class="img-fluid img-thumbnail link" />
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12 topics">
+            <div class="topic">React</div>
+            <div class="topic">Node</div>
+            <div class="topic">Express.js</div>
+            <div class="topic">Mongodb</div>
+            <div class="topic">React-bootstrap</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <a data-toggle="modal" data-target="#gameOfLifeModal">
+              <img src="./public/images/game.jpg" alt="game of life" class="img-fluid img-thumbnail link" />
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12 topics">
+            <div class="topic">React</div>
+            <div class="topic">React-bootstrap</div>
+            <div class="topic">HTML</div>
+            <div class="topic">CSS</div>
+            <div class="topic">jQuery</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vote App Modal -->
+    <div class="modal fade" id="voteAppModal" tabindex="-1" role="dialog" aria-labelledby="voteAppModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="voteAppModal">VOTING APP</h5>
+            <button type="button" class="close link" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./public/images/vote.png" alt="vote app" class="img-fluid profolio-img" />
+            <p class="text-center introduction col-md-8 col-sm-12 mx-auto">A powerful voting website supporting users to create polls and vote for options, users can manage their own polls</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-outline-primary" href="https://cryptic-plateau-68929.herokuapp.com/" role="button" target="_blank">VISIT SITE</a>
+            <a class="btn btn-outline-primary" href="https://github.com/xiaoluo2017/Voting_app" role="button" target="_blank">VIEW SOURSE</a>
+            <button type="button" class="btn btn-outline-dark link" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ipicture Modal -->
+    <div class="modal fade" id="ipictureModal" tabindex="-1" role="dialog" aria-labelledby="ipictureModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ipictureModal">IPICTURE</h5>
+            <button type="button" class="close link" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./public/images/ipicture.PNG" alt="vote app" class="img-fluid profolio-img" />
+            <p class="text-center introduction col-md-8 col-sm-12 mx-auto">A Picture-Sharing Website which supports create/edit/delete image, description and user comments.</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-outline-primary" href="https://murmuring-beyond-26768.herokuapp.com/" role="button" target="_blank">VISIT SITE</a>
+            <a class="btn btn-outline-primary" href="https://github.com/xiaoluo2017/iPicture" role="button" target="_blank">VIEW SOURSE</a>
+            <button type="button" class="btn btn-outline-dark link" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stock Market Modal -->
+    <div class="modal fade" id="stockMarketModal" tabindex="-1" role="dialog" aria-labelledby="stockMarketModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="stockMarketModal">STOCK MARKET</h5>
+            <button type="button" class="close link" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./public/images/2.PNG"" alt="vote app" class="img-fluid profolio-img" />
+            <p class="text-center introduction col-md-8 col-sm-12 mx-auto">Track stocks, users can customize their concerned stocks</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-outline-primary" href="https://guarded-lowlands-11750.herokuapp.com/" role="button" target="_blank">VISIT SITE</a>
+            <a class="btn btn-outline-primary" href="https://github.com/xiaoluo2017/Stock_Market" role="button" target="_blank">VIEW SOURSE</a>
+            <button type="button" class="btn btn-outline-dark link" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recipe Box Modal -->
+    <div class="modal fade" id="recipeBoxModal" tabindex="-1" role="dialog" aria-labelledby="recipeBoxModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recipeBoxModal">RECIPE BOX</h5>
+            <button type="button" class="close link" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./public/images/3.PNG"" alt="vote app" class="img-fluid profolio-img" />
+            <p class="text-center introduction col-md-8 col-sm-12 mx-auto">A recipe box support create/edit/delete recipes with names and ingredients</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-outline-primary" href="https://ancient-lowlands-51718.herokuapp.com/" role="button" target="_blank">VISIT SITE</a>
+            <a class="btn btn-outline-primary" href="https://github.com/xiaoluo2017/recipe_box" role="button" target="_blank">VIEW SOURSE</a>
+            <button type="button" class="btn btn-outline-dark link" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GAME OF LIFE Modal -->
+    <div class="modal fade" id="gameOfLifeModal" tabindex="-1" role="dialog" aria-labelledby="gameOfLifeModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gameOfLifeModal">GAME OF LIFE</h5>
+            <button type="button" class="close link" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./public/images/4.PNG"" alt="vote app" class="img-fluid profolio-img" />
+            <p class="text-center introduction col-md-8 col-sm-12 mx-auto">A simulator for Conway's Game of Life</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-outline-primary" href="https://shielded-badlands-20882.herokuapp.com/" role="button" target="_blank">VISIT SITE</a>
+            <a class="btn btn-outline-primary" href="https://github.com/xiaoluo2017/Game_of_Life" role="button" target="_blank">VIEW SOURSE</a>
+            <button type="button" class="btn btn-outline-dark link" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div id="contact">
+      <div class="col-xs-12 mx-auto">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="col-md-6 col-sm-8 col-xs-12 mx-auto">
+          <p class="text-center" id="email"><a href="mailto:xiao2017luo@gmail.com" target="_blank" rel="noopener noreferrer">Email: xiao2017luo@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 mx-auto">
+          <a href="https://www.linkedin.com/in/gwuxl/" target="_blank"><i class="fa fa-linkedin-square fa-2x social" aria-hidden="true"></i></a>
+          <a href="https://github.com/xiaoluo2017" target="_blank"><i class="fa fa-github fa-2x social" aria-hidden="true"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-facebook-square fa-2x social" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/9c20ef1628.js"></script>
+    <script type="text/javascript" src="scrollable.js"></script>
+  </body>
+</html>

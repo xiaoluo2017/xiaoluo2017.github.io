@@ -1,0 +1,159 @@
+.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+/* header css */
+.bg-dark {
+  background-color: black !important;
+  padding: 5px !important;
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #ccc;
+}
+
+.brand {
+  margin: 0px 10px 0px 15px;
+}
+
+/* greating css */
+.greetings {
+  padding-top: 300px;
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.greeting-background { 
+  background-image:   
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)
+    ),
+    url("greeting.jpeg");
+  height: 800px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width : 720px) {
+  .fix-background {
+    background-attachment: fixed;
+  }
+
+  .topics {
+    margin-top: 25px;
+  }
+}
+
+/* about css */
+.hr {
+  margin-bottom: 50px;
+}
+
+.introduce {
+  line-height: 1.875rem;
+  margin: 0 0 1.875rem;
+}
+
+.text-left {
+  text-indent: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.remark {
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+  color: grey;
+}
+
+.img-thumbnail {
+  margin: 25px 10px 25px 10px;
+}
+
+.photo {
+  border-radius: 100%;
+  margin: 30px 0px 30px 0px;
+}
+
+/* resume css */
+.resume { 
+  background-image: url("resume.jpeg");
+  height: 200px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#resume {
+  padding: 40px;
+}
+
+/* profolio css */
+.profolio-img {
+  margin: 30px 0px 30px 0px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+@media (max-width : 720px) {
+  .topics {
+    margin-left: 10px;
+  }
+}
+
+.topic {
+  display: inline-block;
+  padding: 0.3em 0.9em;
+  margin: 0 0.5em 0.5em 0;
+  white-space: nowrap;
+  background-color: #f1f8ff;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+/* model css */
+.introduction {
+  padding: 20px 0px 0px 0px;
+}
+
+
+/* footer css */
+#contact {
+  margin-top: 60px; 
+  padding: 80px 0px 60px 0px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+#email {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: grey;
+  padding: 20px;
+}
+
+.social {
+  padding: 80px 15px 0px 15px;
+}
